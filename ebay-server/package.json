@@ -1,0 +1,46 @@
+{
+  "name": "ebay-server",
+  "version": "1.0.0",
+  "description": "nodejs/express server to serve ebay api",
+  "main": "./app/server",
+  "scripts": {
+    "test": "./bin/test.sh",
+    "start": "./app/server.js | bistre",
+    "lint": "standard"
+  },
+  "engines": {
+    "node": "6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com.au/csalucasnascimento/ebay-server.git"
+  },
+  "keywords": [
+    "ebay",
+    "nodejs",
+    "express",
+    "api"
+  ],
+  "author": "csalucasnascimento",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bole": "3.0.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.4",
+    "express": "4.15.2",
+    "express-history-api-fallback": "^2.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.75.0",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.0"
+  },
+  "devDependencies": {
+    "bistre": "1.0.1",
+    "standard": "9.0.1",
+    "supertest": "3.0.0",
+    "tap-dot": "1.0.5",
+    "tape": "4.6.3",
+    "dotenv": "^5.0.0"
+  }
+}
